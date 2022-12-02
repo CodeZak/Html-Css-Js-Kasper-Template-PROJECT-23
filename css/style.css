@@ -1157,7 +1157,6 @@ nav ul li a {
         rgb(131, 59, 159)
     );
     background-size: 500%;
-    animation: bg-animation 5s infinite alternate;
 
 }
 .subscription_wrapper::before {
@@ -1403,7 +1402,6 @@ nav ul li a {
         rgb(131, 59, 159)
     );
     background-size: 500%;
-    animation: bg-animation 6s infinite alternate;
 
 }
 
