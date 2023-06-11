@@ -1,5 +1,7 @@
 /* Font awsome icons */
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css);
+/*=============== GOOGLE FONTS ===============*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
 
 /* very small  560px*/
 /* small 768px*/
@@ -16,8 +18,8 @@
 }
 
 body {
-    font-family: "Open Sans", sans-serif;
-    background-color: #fafafa;
+    font-family: "Cairo", sans-serif;
+    background-color: white;
 }
 
 ul {
@@ -370,6 +372,7 @@ nav ul li a {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
     padding: 10px;
+    padding-bottom: 70px;
 }
 
 .services_container .service {
@@ -628,6 +631,7 @@ nav ul li a {
     cursor: pointer;
     max-width: 100px;
     transition: 0.3s;
+    margin-bottom: 70px;
 }
 
 .portfolio_content .btn_wrapper button:hover {
@@ -1146,8 +1150,9 @@ nav ul li a {
 .subscription_wrapper {
     width: 100%;
     height: 250px;
-/*     background-image: url("../images/subscribe.jpg");
- */    background-repeat: no-repeat;
+    /*     background-image: url("../images/subscribe.jpg");
+ */
+    background-repeat: no-repeat;
     background-size: cover;
     position: relative;
     margin-top: 50px;
@@ -1157,7 +1162,6 @@ nav ul li a {
         rgb(131, 59, 159)
     );
     background-size: 500%;
-
 }
 .subscription_wrapper::before {
     content: "";
@@ -1243,6 +1247,9 @@ nav ul li a {
 /* End Pricing */
 
 /* Start Contact */
+.contact {
+    padding-bottom: 60px;
+}
 
 .contact .contact_boxes {
     display: flex;
@@ -1251,7 +1258,7 @@ nav ul li a {
 
 .contact .contact_form {
     padding: 30px 20px;
-    max-width: 1000px;
+    width: 100%;
 }
 .contact .contact_form .contact_form_input {
     background-color: white;
@@ -1298,7 +1305,7 @@ nav ul li a {
     background-image: linear-gradient(
         45deg,
         rgb(29, 147, 190),
-        rgb(131, 59, 159)
+        rgb(29, 147, 190)
     );
     background-size: 500%;
     animation: bg-animation 5s infinite alternate;
@@ -1317,11 +1324,11 @@ nav ul li a {
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
     background-image: linear-gradient(
         45deg,
-        rgb(29, 147, 190),
-        rgb(131, 59, 159)
+        rgb(91, 176, 207),
+        rgb(26, 87, 109)
     );
     background-size: 500%;
-    animation: bg-animation 5s infinite alternate;
+    /* animation: bg-animation 5s infinite alternate; */
 }
 
 .contact .contact_form_info h2 {
@@ -1392,8 +1399,9 @@ nav ul li a {
 /* Start Footer */
 .footer {
     min-height: 200px;
-/*     background-image: url("../images/subscribe.jpg");
- */    color: rgba(228, 225, 225, 0.969);
+    /*     background-image: url("../images/subscribe.jpg");
+ */
+    color: rgba(228, 225, 225, 0.969);
     text-align: center;
     position: relative;
     background-image: linear-gradient(
@@ -1402,7 +1410,6 @@ nav ul li a {
         rgb(131, 59, 159)
     );
     background-size: 500%;
-
 }
 
 .footer::before {
@@ -1452,7 +1459,6 @@ nav ul li a {
 }
 .links {
     padding: 10px;
-
 }
 .contact_details {
     padding: 17px 10px;
@@ -1532,7 +1538,6 @@ nav ul li a {
 .footer .contact_details .phone {
     margin-bottom: 25px;
 }
-
 
 .footer .photos {
     display: flex;
